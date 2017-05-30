@@ -1,0 +1,59 @@
+.cabecera {
+  padding:0px;
+}
+.rows {
+  min-height: 20%;
+  padding: 0px;
+
+}
+
+div {
+  margin: 0 auto;
+  text-align: center;
+  }
+
+.logo{
+  width:15%;
+  height: 15%;
+}
+.redes {
+  width:15%;
+  height:20%;
+
+}
+
+
+.columnas {
+
+  min-height: 15%;
+  background:red;
+  border: 1px solid black;
+  padding: 0px;
+  vertical-align: middle;
+
+
+}
+
+.img {
+  height: 260px;
+  width: 98%;
+  padding: 6px;
+  margin-top: 22px;
+}
+  .contenido {
+    background: grey;
+
+
+  }
+  .buscador{
+    background: yellow;
+
+  }
+
+.botones {
+  background: blue;
+  border: 2px solid black;
+  width: 70%;
+  padding-top: : 10px;
+
+}
