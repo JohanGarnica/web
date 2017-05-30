@@ -1,10 +1,19 @@
+@font-face {
+  font-family: "dancing";
+  src:url("/web/fonts/DancingScript-Bold.ttf");
+  }
+  @font-face {
+    font-family: "tangerine";
+    src:url("/web/fonts/Tangerine_Bold.ttf");
+    }
+
 .cabecera {
   padding:0px;
 }
 .rows {
   min-height: 20%;
   padding: 0px;
-
+  background:  hsla(225, 75%, 8%, 0.72);
 }
 
 div {
@@ -21,12 +30,31 @@ div {
   height:20%;
 
 }
+.tipo-letra1{
 
+    font-family: "dancing";
+    font-size: 1.5em;
+    color: white;
+}
+.tipo-letra2{
+
+    font-family: "tangerine";
+    font-size: 1.5em;
+      color: black;
+
+}
+
+.nav-color {
+background:hsla(225, 75%, 28%, 0.72);
+color: black !important;
+font-family: "dancing";
+
+}
 
 .columnas {
 
   min-height: 15%;
-  background:red;
+  background:hsla(225, 13%, 64%, 0.72);
   border: 1px solid black;
   padding: 0px;
   vertical-align: middle;
@@ -46,7 +74,7 @@ div {
 
   }
   .buscador{
-    background: yellow;
+    background: hsla(189, 75%, 45%, 0.5);
 
   }
 
@@ -55,5 +83,5 @@ div {
   border: 2px solid black;
   width: 70%;
   padding-top: : 10px;
-
+  color: black;
 }
