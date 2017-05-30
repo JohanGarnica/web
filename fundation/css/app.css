@@ -1,0 +1,8 @@
+.filas {
+  border: 2px solid black;
+  padding: 2px;
+}
+.columnas {
+  border: 2px solid red;
+  padding: 2px;
+}
