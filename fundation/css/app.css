@@ -1,8 +1,98 @@
+@font-face {
+  font-family: "dancing";
+  src:url("/web/fonts/DancingScript-Bold.ttf");
+  }
+  @font-face {
+    font-family: "tangerine";
+    src:url("/web/fonts/Tangerine_Bold.ttf");
+    }
+
+.color{
+  color: white;
+}
+body{
+  background-image: url("/web/img/a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+#principal {
+background:hsla(358, 100%, 21%, 0.55);
+
+}
 .filas {
-  border: 2px solid black;
+
   padding: 2px;
 }
 .columnas {
-  border: 2px solid red;
   padding: 2px;
+}
+.columnas-principales {
+
+  border: 2px solid rgba(184, 0, 6, 0.55);
+  padding:2px;
+  border-radius: 5px;
+}
+.left{
+background-color: hsla(297, 100%, 36%, 0.28);
+}
+.boton {
+  padding: 0px;
+  width:90%;
+  height: 100%;
+  border-radius: 5px 3px;
+  background-color:hsla(18, 100%, 36%, 0.46)!important;
+}
+.imagenes {
+  width: 95%;
+  border-radius: 2px;
+  border: 2px solid black;
+  box-shadow: 2px 4px 8px #02010a;
+
+}
+.links{
+  color: white;
+  font-family: "tangerine";
+  font-size: 1.8em;
+}
+Ul {
+  list-style: none;
+
+}
+p {
+  font-family: "tangerine";
+  font-size: 1.8em;
+  color: white;
+  text-align: justify;
+
+}
+
+figure{
+  width: 100%;
+  text-align: center;
+}
+h1  {
+  font-family: "dancing";
+  font-size: 2em;
+  color: white;
+  text-align: right;
+}
+h3{
+  font-family: "dancing";
+  text-align: right;
+  font-size: 1.5em;
+  color: white;
+}
+h2{
+  font-family: "dancing";
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+}
+h5{
+  font-family: "dancing";
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
 }
