@@ -22,10 +22,11 @@ background:hsla(358, 100%, 21%, 0.55);
 
 }
 .filas {
-
+  width: 98%;
   padding: 2px;
 }
 .columnas {
+  width: 98%;
   padding: 2px;
 }
 .columnas-principales {
