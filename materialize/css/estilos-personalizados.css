@@ -6,7 +6,7 @@
     font-family: "tangerine";
     src:url("/web/fonts/Tangerine_Bold.ttf");
     }
-body{
+ body{
   background-image: url("/web/img/fondo-turismo.jpg");
   background-repeat: no-repeat;
   background-size:cover;
@@ -25,16 +25,16 @@ body{
 
     padding: 2px;
   }
-  #logo {
+#logo {
     width: 30%;
-    height: 98%;
+    height: 50%;
   }
   p {
     padding:5px;
     font-family: "tangerine";
     font-size: 1.8em;
     color: white;
-  
+
 
   }
   h1{
@@ -47,6 +47,7 @@ body{
     font-family: "tangerine";
     font-size: 1.9em;
     color: white;
+    text-align: center;
 }
   img {
     width: 100%;
